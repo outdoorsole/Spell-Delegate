@@ -61,6 +61,9 @@
                             <constraint firstItem="kuh-nf-9qT" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="urK-sC-cvS"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="spellLabel" destination="U35-fR-w3B" id="aIH-ND-tn7"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

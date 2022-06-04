@@ -9,6 +9,8 @@
 
 @interface FirstViewController ()
 
+@property (weak, nonatomic) IBOutlet UILabel *spellLabel;
+
 @end
 
 @implementation FirstViewController
