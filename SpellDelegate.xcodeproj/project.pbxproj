@@ -32,6 +32,7 @@
 		0C0A506C284AD83500197E1C /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
 		0C0A506E284AD84900197E1C /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		0C0A506F284AD84900197E1C /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		0C0A5073284ADEDF00197E1C /* SpellDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpellDelegate.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +65,7 @@
 		0C0A5050284AD75F00197E1C /* SpellDelegate */ = {
 			isa = PBXGroup;
 			children = (
+				0C0A5072284ADEC800197E1C /* Delegate */,
 				0C0A506A284AD7E700197E1C /* ViewControllers */,
 				0C0A5051284AD75F00197E1C /* AppDelegate.h */,
 				0C0A5052284AD75F00197E1C /* AppDelegate.m */,
@@ -87,6 +89,14 @@
 				0C0A506F284AD84900197E1C /* SecondViewController.m */,
 			);
 			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		0C0A5072284ADEC800197E1C /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				0C0A5073284ADEDF00197E1C /* SpellDelegate.h */,
+			);
+			path = Delegate;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
