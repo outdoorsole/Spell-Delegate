@@ -9,6 +9,8 @@
 
 @interface SecondViewController ()
 
+@property (weak, nonatomic) IBOutlet UITextField *spellTextField;
+
 @end
 
 @implementation SecondViewController
@@ -16,5 +18,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 }
+
+- (IBAction)spellButtonTapped:(id)sender {}
 
 @end

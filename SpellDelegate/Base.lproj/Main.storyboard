@@ -108,6 +108,9 @@
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="24"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" title="Cast Spell!"/>
+                                <connections>
+                                    <action selector="spellButtonTapped:" destination="HMy-bu-A1P" eventType="touchUpInside" id="ntI-UN-bsb"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="SlD-ra-OIP"/>
@@ -123,6 +126,9 @@
                             <constraint firstItem="87j-H3-KRp" firstAttribute="centerX" secondItem="Qux-fD-irY" secondAttribute="centerX" id="ghJ-LS-rZQ"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="spellTextField" destination="DUJ-af-taF" id="k8V-KY-pY0"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="P75-kk-AsY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
