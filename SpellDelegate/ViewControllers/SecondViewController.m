@@ -20,7 +20,6 @@
 }
 
 - (IBAction)spellButtonTapped:(id)sender {
-    [self.delegate didSendSpell:self.spellTextField.text];
     [self dismissViewControllerAnimated:YES completion:nil];
 }
 

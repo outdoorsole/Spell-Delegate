@@ -8,7 +8,7 @@
 #import "FirstViewController.h"
 #import "SecondViewController.h"
 
-@interface FirstViewController () <SpellDelegate>
+@interface FirstViewController ()
 
 @property (weak, nonatomic) IBOutlet UILabel *spellLabel;
 
@@ -22,13 +22,6 @@
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
     SecondViewController *secondViewController = [segue destinationViewController];
-
-    // Set the First View Controller as the delegate
-    secondViewController.delegate = self;
-}
-
-- (void)didSendSpell:(NSString *)spell {
-    self.spellLabel.text = spell;
 }
 
 @end

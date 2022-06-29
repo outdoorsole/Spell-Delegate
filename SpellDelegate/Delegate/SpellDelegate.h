@@ -8,10 +8,4 @@
 #ifndef SpellDelegate_h
 #define SpellDelegate_h
 
-@protocol SpellDelegate <NSObject>
-
-- (void)didSendSpell:(NSString *)spell;
-
-@end
-
 #endif /* SpellDelegate_h */
